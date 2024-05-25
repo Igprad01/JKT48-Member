@@ -1,12 +1,13 @@
-
-
 [
     {
-        "id": 1,
-        "name": "ini adalah nama",
-        "gen" : "2"
+        "id"            : 1,
+        "gen"           : "3",
+        "nama lengkap " : "Shani Gracia",
+        "tanggal lahir" : "",
+        "horoskop"      : "",
+        "tinggi Badan"  : "161 cm",
+        "Jikoshokai"    : ""
     }
-
     
 ]
 

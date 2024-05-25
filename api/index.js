@@ -20,6 +20,10 @@ app.get("/member",(req,res,next) => {
     })
 });
 
+app.post("/post", (req,res,next) => {
+    // nanti dibuatkan 
+})
 
 
+// nanti dilanjutkan
  
