@@ -1,17 +1,21 @@
-const express = require('express');
-const app = new express
+import express from 'express';
+import path from 'path';
+import fs from 'fs';
+const app = express();
 const port = 3000
-const path = require("path");
-const fs = require('fs');
 
 
 app.listen(port, () => {
     console.log(`running ${port}`);
 });
 
+app.get('/', (res) => {
+    res.send("ini adalah API");
+})
+
 app.get("/member",(req,res,next) => {
     const filepath = path.join(__dirname,'..', 'data', 'member.json');
-    fs.readFile(filepath, 'utf8', (err, data) => {
+    fs.readFile(filepath, (err, data) => {
        if (err) {
         next(err)
        } else {
@@ -25,5 +29,4 @@ app.post("/post", (req,res,next) => {
 })
 
 
-// nanti dilanjutkan
- 
+// nanti dibuatkan error handling 

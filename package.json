@@ -4,7 +4,8 @@
   "description": "-",
   "main": "index.js",
   "scripts": {
-    "test": "0"
+    "test": "0",
+    "dev": "bun api/index.js"
   },
   "repository": {
     "type": "git",
