@@ -42,9 +42,10 @@ app.post("/post", (req,res,next) => {
         fs.writeFile(filepath, JSON.stringify(json, null, 2), 'utf8', (writeErr) => {
             if (writeErr) {
                 return next(writeErr)
-            } 
+            } else {
             res.status(201).json(newMember);
             console.log("data tersebut sudah dikirim");
+            }
         })
     })
 });
