@@ -1,9 +1,10 @@
 import express from 'express';
 import path from 'path';
-import fs from 'fs';
+import fs, { write } from 'fs';
 const app = express();
 const port = 3000
 
+app.use(express.json());
 
 app.listen(port, () => {
     console.log(`running ${port}`);
@@ -15,7 +16,7 @@ app.get('/', (res) => {
 
 app.get("/member",(req,res,next) => {
     const filepath = path.join(__dirname,'..', 'data', 'member.json');
-    fs.readFile(filepath, (err, data) => {
+    fs.readFile(filepath, 'utf8',(err, data) => {
        if (err) {
         next(err)
        } else {
@@ -25,8 +26,10 @@ app.get("/member",(req,res,next) => {
 });
 
 app.post("/post", (req,res,next) => {
-    // nanti dibuatkan 
+    const filepath = path.join(__dirname, '..', 'data', 'member.json');
+    const NewMember = req.body;
+
+    fs.readFile(filepath, 'utf8',(err, data) => {
+        // dilanjut nanti
+    })
 })
-
-
-// nanti dibuatkan error handling 

@@ -1,13 +1,33 @@
 [
-    {
-        "id"            : 1,
-        "gen"           : "3",
-        "nama lengkap " : "Shani Gracia",
-        "tanggal lahir" : "",
-        "horoskop"      : "",
-        "tinggi Badan"  : "161 cm",
-        "Jikoshokai"    : ""
-    }
-    
+  {
+    "id": 1,
+    "gen": "3",
+    "nama lengkap ": "Shani Gracia",
+    "tanggal lahir": "",
+    "horoskop": "",
+    "tinggi Badan": "161 cm",
+    "Jikoshokai": "",
+    "status": ""
+  },
+  {
+    "id": 1,
+    "gen": "3",
+    "nama lengkap ": "Shani Gracia",
+    "tanggal lahir": "",
+    "horoskop": "",
+    "tinggi Badan": "161 cm",
+    "Jikoshokai": "",
+    "status": ""
+  },
+  null,
+  {
+    "id": 4,
+    "gen": "3",
+    "nama lengkap ": "Shani Gracia",
+    "tanggal lahir": "",
+    "horoskop": "",
+    "tinggi Badan": "161 cm",
+    "Jikoshokai": "",
+    "status": ""
+  }
 ]
-
