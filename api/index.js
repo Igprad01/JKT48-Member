@@ -44,9 +44,17 @@ app.post("/post", (req,res,next) => {
                 return next(writeErr)
             } 
             res.status(201).json(newMember);
+            console.log("data tersebut sudah dikirim");
         })
     })
+});
 
-    console.log("data tersebut sudah dikirim");
+
+app.use((err,req,res,next) => {
+    console.error(err.stack);
+    res.status(500).json({
+        status: 'error',
+        error: err.message
+    });
 });
 
