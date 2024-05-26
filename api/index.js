@@ -48,4 +48,5 @@ app.post("/post", (req,res,next) => {
     })
 
     console.log("data tersebut sudah dikirim : ");
-})
+});
+
