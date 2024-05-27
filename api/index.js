@@ -23,6 +23,7 @@ app.get("/member",(req,res,next) => {
     })
 });
 
+
 app.post("/post", (req,res,next) => {
     const filepath = path.join(__dirname, '..', 'data', 'member.json');
     const newMember = req.body;
@@ -49,7 +50,6 @@ app.post("/post", (req,res,next) => {
         })
     })
 });
-
 
 app.use((err,req,res,next) => {
     console.error(err.stack);

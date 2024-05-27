@@ -3,12 +3,22 @@
     "id": 1,
     "gen": "3",
     "nama lengkap ": "Shani Gracia",
-    "tanggal lahir": "",
-    "horoskop": "",
+    "tanggal lahir": "31 Agustus 1999",
+    "horoskop": "Virgo",
     "tinggi Badan": "161 cm",
-    "Jikoshokai": "",
-    "status": ""
+    "Jikoshokai": null,
+    "picture": null,
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "gen": "3",
+    "nama lengkap ": "Feny Fitriyanti",
+    "tanggal lahir": "16 Januari 1999",
+    "horoskop": "Capricorn",
+    "tinggi Badan": "162 cm",
+    "Jikoshokai": null,
+    "picture": null,
+    "status": "Active"
   }
 ]
-
-
