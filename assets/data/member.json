@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "gen": "3",
     "nama lengkap ": "Shani Gracia",
     "tanggal lahir": "31 Agustus 1999",
@@ -8,10 +7,9 @@
     "tinggi Badan": "161 cm",
     "Jikoshokai": null,
     "picture": "./assets/img/Gracia.jpg",
-    "status": "Active"
+    "status": "Member - Active"
   },
   {
-    "id": 2,
     "gen": "3",
     "nama lengkap ": "Feny Fitriyanti",
     "tanggal lahir": "16 Januari 1999",
@@ -19,6 +17,16 @@
     "tinggi Badan": "162 cm",
     "Jikoshokai": null,
     "picture": null,
-    "status": "Active"
+    "status": "Member - Active"
+  },
+  {
+    "gen": "6",
+    "nama lengkap": "Gita Sekar Andarini ",
+    "tanggal lahir": "30 Juni 2001",
+    "horoskop": "Cancer",
+    "tinggi Badan": "165 cm",
+    "Jikoshokai": null,
+    "picture": null,
+    "status": "Member - Active"
   }
 ]

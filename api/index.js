@@ -13,7 +13,7 @@ app.listen(port, () => {
 
 
 app.get("/member",(req,res,next) => {
-    const filepath = path.join(__dirname,'..', 'data', 'member.json');
+    const filepath = path.join(__dirname,'..', 'assets', 'data', 'member.json');
     fs.readFile(filepath, 'utf-8',(err, data) => {
        if (err) {
         next(err)
@@ -25,7 +25,7 @@ app.get("/member",(req,res,next) => {
 
 
 app.post("/post", (req,res,next) => {
-    const filepath = path.join(__dirname, '..', 'data', 'member.json');
+    const filepath = path.join(__dirname, '..', 'assets', 'data' , 'member.json');
     const newMember = req.body;
 
     fs.readFile(filepath, 'utf8',(err, data) => {
