@@ -11,6 +11,7 @@ app.listen(port, () => {
     console.log(`running ${port}`);
 });
 
+// nanti ditambahkan lagi gen 8 - 9 
 
 app.get("/member",(req,res,next) => {
     const filepath = path.join(__dirname,'..', 'assets', 'data', 'member.json');
