@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import fs, { write } from 'fs';
+import { log } from 'console';
 const app = express();
 const port = 3000
 let json;
@@ -11,7 +12,10 @@ app.listen(port, () => {
     console.log(`running ${port}`);
 });
 
-// nanti ditambahkan lagi gen 8 - 9 
+app.get("/", (req,res,next)=> {
+    res.send("hello world");
+})
+
 
 app.get("/member",(req,res,next) => {
     const filepath = path.join(__dirname,'..', 'assets', 'data', 'member.json');
@@ -23,6 +27,7 @@ app.get("/member",(req,res,next) => {
        }
     })
 });
+
 
 
 app.post("/post", (req,res,next) => {
@@ -51,6 +56,7 @@ app.post("/post", (req,res,next) => {
         })
     })
 });
+
 
 
 app.use((err,req,res,next) => {
