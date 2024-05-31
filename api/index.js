@@ -28,6 +28,7 @@ app.get("/member",(req,res,next) => {
     })
 });
 
+// buat filter parameter
 
 
 app.post("/post", (req,res,next) => {
