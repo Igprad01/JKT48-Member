@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "0",
-    "dev": "bun api/index.js"
+    "dev": "bun --watch api/index.js"
   },
   "repository": {
     "type": "git",
