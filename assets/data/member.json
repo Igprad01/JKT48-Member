@@ -2,7 +2,9 @@
   {
     "gen": "3",
     "nama lengkap ": "Shani Gracia",
-    "tanggal lahir": "31 Agustus 1999",
+    "tanggal lahir": "31",
+    "bulan lahir" : "Agustus",
+    "tahun lahir" : "1999",
     "horoskop": "Virgo",
     "tinggi Badan": "161 cm",
     "Jikoshokai": "Senyumku akan terekam jelas dalam ingatanmu seperti foto dengan sejuta warna. Namaku Gracia. Always smile",
@@ -12,7 +14,9 @@
   {
     "gen": "3",
     "nama lengkap ": "Feny Fitriyanti",
-    "tanggal lahir": "16 Januari 1999",
+    "tanggal lahir": "16",
+    "bulan lahir" : "Januari",
+    "tahun lahir" : "1999",
     "horoskop": "Capricorn",
     "tinggi Badan": "162 cm",
     "Jikoshokai": "Matahari yang indah, yang akan memberikan kehangatan di setiap harinya. Halo Aku Feni",
@@ -22,7 +26,9 @@
   {
     "gen": "6",
     "nama lengkap": "Gita Sekar Andarini ",
-    "tanggal lahir": "30 Juni 2001",
+    "tanggal lahir": "30",
+    "bulan lahir" : "Juni",
+    "tahun lahir" : "2001",
     "horoskop": "Cancer",
     "tinggi Badan": "165 cm",
     "Jikoshokai": "Diam bukan berarti tidak memperhatikanmu, aku Gita!",
@@ -32,7 +38,9 @@
   {
     "gen": "7",
     "nama lengkap": "Angelina Christy",
-    "tanggal lahir": "5 Desember 2005",
+    "tanggal lahir": "5",
+    "bulan lahir" : "Desember",
+    "tahun lahir" : "2005",
     "horoskop": "Sagitarius",
     "tinggi Badan": "163 cm",
     "Jikoshokai": "Peduli dan berbaik hati, siapakah dia? Christy~",
@@ -42,7 +50,9 @@
   {
     "gen": "7",
     "nama lengkap": "Azizi Asadel",
-    "tanggal lahir": "16 Mei 2004",
+    "tanggal lahir": "16",
+    "bulan lahir" : "Mei",
+    "tahun lahir" : "2004",
     "horoskop": "Taurus",
     "tinggi Badan": "162 cm",
     "Jikoshokai": "Si gadis tomboy yang semangatnya meletup-letup, aku Zee!",
@@ -52,7 +62,9 @@
   {
     "gen": "7",
     "nama lengkap": "Febriola Sinambela",
-    "tanggal lahir": "26 Februari 2005",
+    "tanggal lahir": "26",
+    "bulan lahir" : "Februari",
+    "tahun lahir" : "2005",
     "horoskop": "Pisces",
     "tinggi Badan": "154 Cm",
     "Jikoshokai": "Dengan keajaibanku, aku akan membuat kalian penasaran denganku. Halo aku Olla, si mechanic girl",
@@ -62,7 +74,9 @@
   {
     "gen": "7",
     "nama lengkap": "Freya Jayawardana",
-    "tanggal lahir": "13 februari 2006",
+    "tanggal lahir": "13",
+    "bulan lahir" : "Februari",
+    "tahun lahir" : "2005",
     "horoskop": "Aquarius",
     "tinggi Badan": "154 Cm",
     "Jikoshokai": "Gadis Koleris yang suka berimajinasi, terangi harimu dengan senyuman karamelku. Halo, aku Freya!",
@@ -72,7 +86,9 @@
   {
     "gen": "7",
     "nama lengkap": "Helisma Putri",
-    "tanggal lahir": "15 Juni 2000",
+    "tanggal lahir": "15",
+    "bulan lahir" : "Juni",
+    "tahun lahir" : "2000",
     "horoskop": "Gemini",
     "tinggi Badan": "165 Cm",
     "Jikoshokai": "Aprikot aprikot aprikot aprikot, pang! Dengan energi kegembiraanku aku akan menghangatkan suasana. Halo halo aku Eli!",
@@ -82,7 +98,9 @@
   {
     "gen": "7",
     "nama lengkap": "Jessica Chandra",
-    "tanggal lahir": "23 September 2005",
+    "tanggal lahir": "23",
+    "bulan lahir" : "September",
+    "tahun lahir" : "2005",
     "horoskop": "Libra",
     "tinggi Badan": "163 Cm",
     "Jikoshokai": "Suka menari dan akan berusaha menjadi sumber energimu. Hai, aku Jessi",
@@ -92,13 +110,15 @@
   {
     "gen": "7",
     "nama lengkap": "Mutiara Azzahra",
-    "tanggal lahir": "12 Juli 2004",
+    "tanggal lahir": "12",
+    "bulan lahir" : "Juli",
+    "tahun lahir" : "2004",
     "horoskop": "Cancer",
     "tinggi Badan": "158 Cm",
     "Jikoshokai": "Dengan kelincahanku, aku akan menari setiap hari. Panggil aku Mu Mu Mu Muthe! Dont touch, dont touch, dont touch touch touch!",
     "picture": null,
     "status": "Member - Active"
-  },
+  }, 
   {
     "gen": "8",
     "nama lengkap": "Cornelia Vanisa",
@@ -255,7 +275,7 @@
     "tanggal lahir": "10 Januari 2006",
     "horoskop": "Virgo",
     "tinggi Badan": "165 Cm",
-    "Jikoshokai": null,
+    "Jikoshokai": "Pandangan mataku akan menyinari hatimu bagaikan kunang-kunang di malam hari. Halo aku Greesel",
     "picture": null,
     "status": "Member - Active"
   },
@@ -265,7 +285,7 @@
     "tanggal lahir": "18 Oktober 2007",
     "horoskop": "Libra",
     "tinggi Badan": "165 Cm",
-    "Jikoshokai": null,
+    "Jikoshokai": "Manis seperti gulali, imut seperti kelinci. Halo aku Gracie!",
     "picture": null,
     "status": "Member - Active"
   },
@@ -275,7 +295,7 @@
     "tanggal lahir": "26 Agustus 2006",
     "horoskop": "Virgo",
     "tinggi Badan": "165 Cm",
-    "Jikoshokai": null,
+    "Jikoshokai": "Jika hatimu sedang menangis, aku akan datang sebagai pelangi. Hai, aku Alya!",
     "picture": null,
     "status": "Member - Trainne"
   },
@@ -285,7 +305,57 @@
     "tanggal lahir": "18 Oktober 2005",
     "horoskop": "Libra",
     "tinggi Badan": "154 Cm",
-    "Jikoshokai": null,
+    "Jikoshokai": "Si mungil hadir, semanis mangga. Hai, aku Anindya!",
+    "picture": null,
+    "status": "Member - Trainne"
+  },
+  {
+    "gen": "11",
+    "nama lengkap": "Cathleen Nixie",
+    "tanggal lahir": "28 Mei 2009",
+    "horoskop": "Gemini",
+    "tinggi Badan": "158 Cm",
+    "Jikoshokai": "Cring… Si peri cantik jelita, itulah aku. Halo, aku Cathy!",
+    "picture": null,
+    "status": "Member - Trainne"
+  },
+  {
+    "gen": "11",
+    "nama lengkap": "Celline Thefani",
+    "tanggal lahir": "9 April 2007",
+    "horoskop": "Aries",
+    "tinggi Badan": "163 Cm",
+    "Jikoshokai": "Semanis permen kapas dan seindah bunga lavender. Halo, aku Elin!",
+    "picture": null,
+    "status": "Member - Trainne"
+  },
+  {
+    "gen": "11",
+    "nama lengkap": "Chelsea Davina",
+    "tanggal lahir": "23 Desember 2009",
+    "horoskop": "Capricorn",
+    "tinggi Badan": "168 Cm",
+    "Jikoshokai": "As bright as the shooting stars in the starry night sky. Halo, aku Chelsea!",
+    "picture": null,
+    "status": "Member - Trainne"
+  },
+  {
+    "gen": "11",
+    "nama lengkap": "Cynthia Yaputera",
+    "tanggal lahir": "22 November 2003",
+    "horoskop": "Sagitarius",
+    "tinggi Badan": "158 Cm",
+    "Jikoshokai": "Semangatku terus menerus meluap, pop pop. Aku Cynthia!",
+    "picture": null,
+    "status": "Member - Trainne"
+  },
+  {
+    "gen": "11",
+    "nama lengkap": "Dena Natalia",
+    "tanggal lahir": "16 Desember 2005",
+    "horoskop": "Sagitarius",
+    "tinggi Badan": "162 Cm",
+    "Jikoshokai": "Tok tok! Siapa? Si penari yang akan menarikmu ke duniaku. aku Danella!",
     "picture": null,
     "status": "Member - Trainne"
   }
