@@ -1,7 +1,6 @@
 import express from 'express';
 import path from 'path';
-import fs, { write } from 'fs';
-import { log } from 'console';
+import fs from 'fs';
 const app = express();
 const port = 3000
 let json;
@@ -14,25 +13,36 @@ app.listen(port, () => {
 
 app.get("/", (req,res,next)=> {
     res.send("hello world");
-})
-
-
-app.get("/member",(req,res,next) => {
-    const filepath = path.join(__dirname,'..', 'assets', 'data', 'member.json');
-    fs.readFile(filepath, 'utf-8',(err, data) => {
-       if (err) {
-        next(err)
-       } else {
-        res.json(JSON.parse(data));
-       }
-    })
 });
 
-// buat filter parameter
+
+app.get("/member", (req, res, next) => {
+    const filepath = path.resolve('assets', 'data', 'member.json');
+    fs.readFile(filepath, 'utf-8', (err, data) => {
+        if (err) {
+            next(err);
+        } else {
+            try {
+                const members = JSON.parse(data);
+                const filters = req.query;
+                const filteredMembers = members.filter(member => {
+                    return Object.keys(filters).every(key => {
+                        return String(member[key]).toLowerCase() === String(filters[key]).toLowerCase();
+                    });
+                });
+
+                res.json(filteredMembers);
+            } catch (parseErr) {
+                next(parseErr);
+            }
+        }
+    });
+});
+
 
 
 app.post("/post", (req,res,next) => {
-    const filepath = path.join(__dirname, '..', 'assets', 'data' , 'member.json');
+    const filepath = path.resolve('..', 'assets', 'data' , 'member.json');
     const newMember = req.body;
 
     fs.readFile(filepath, 'utf8',(err, data) => {
