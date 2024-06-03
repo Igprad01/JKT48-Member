@@ -5,12 +5,6 @@
           "src" : "api/index.js",
           "use" : "use/node"
         }
-    ],
-    "routers" : [
-        {
-            "src": "/{. *}",
-            "dest": "api/index.js"
-        }
     ]
 }
 
