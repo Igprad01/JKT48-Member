@@ -1,5 +1,5 @@
 {
-    "version" : 2,
+    "version" : 1,
     "build" : [
         {
           "src" : "api/index.js",
@@ -9,7 +9,7 @@
     "routers" : [
         {
             "src": "/{. *}",
-            "desk": "api/index.js"
+            "dest": "api/index.js"
         }
     ]
 }
