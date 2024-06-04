@@ -1,6 +1,6 @@
 import express from 'express';
 import path from 'path';
-import fs from 'fs';
+import fs, { stat } from 'fs';
 const app = express();
 const port = 3000
 let json;
@@ -42,7 +42,7 @@ app.get("/member", (req, res, next) => {
 
 
 app.post("/post", (req,res,next) => {
-    const filepath = path.resolve('..', 'assets', 'data' , 'member.json');
+    const filepath = path.resolve('assets', 'data' , 'member.json');
     const newMember = req.body;
 
     fs.readFile(filepath, 'utf8',(err, data) => {
@@ -73,8 +73,8 @@ app.post("/post", (req,res,next) => {
 app.use((err,req,res,next) => {
     console.error(err.stack);
     res.status(500).json({
-        status: err,
-        'message' : err.message
+        status : err,
+        message : err.message
     });
 });
 
