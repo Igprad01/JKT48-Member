@@ -12,8 +12,9 @@ app.listen(port, () => {
 });
 
 app.get("/", (req,res,next)=> {
-    res.send("hello world");
+    res.send('hello world');
 });
+// nanti diperbarui menampilkan readme.md
 
 
 app.get("/member", (req, res, next) => {
@@ -42,7 +43,7 @@ app.get("/member", (req, res, next) => {
 
 
 app.post("/post", (req,res,next) => {
-    const filepath = path.resolve('assets', 'data' , 'member.json');
+    const filepath = path.join('/tmp','assets', 'data' , 'member.json');
     const newMember = req.body;
 
     fs.readFile(filepath, 'utf8',(err, data) => {
@@ -57,7 +58,7 @@ app.post("/post", (req,res,next) => {
         
         json.push(newMember);
 
-        fs.writeFile(filepath, JSON.stringify(json, null, 2), 'utf8', (writeErr) => {
+        fs.writeFileSync(filepath, JSON.stringify(json, null, 2), 'utf8', (writeErr) => {
             if (writeErr) {
                 return next(writeErr)
             } else {
