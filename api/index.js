@@ -43,7 +43,7 @@ app.get("/member", (req, res, next) => {
 
 
 app.post("/post", (req,res,next) => {
-    const filepath = path.join('assets', 'data' , 'member.json');
+    const filepath = path.resolve('assets', 'data' , 'member.json');
     const newMember = req.body;
 
     fs.readFile(filepath, 'utf8',(err, data) => {
