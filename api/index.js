@@ -58,7 +58,7 @@ app.post("/post", (req,res,next) => {
         
         json.push(newMember);
 
-        fs.writeFileSync(filepath, JSON.stringify(json, null, 2), 'utf8', (writeErr) => {
+        fs.writeFile(filepath, JSON.stringify(json, null, 2), 'utf8', (writeErr) => {
             if (writeErr) {
                 return next(writeErr)
             } else {
