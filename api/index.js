@@ -14,7 +14,7 @@ app.listen(port, () => {
 app.get("/", (req,res,next)=> {
     res.send('hello world');
 });
-// nanti diperbarui menampilkan readme.md
+// nanti diperbarui menampilkan readme.md & next fix post API (new version)
 
 
 app.get("/member", (req, res, next) => {
