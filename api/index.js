@@ -73,7 +73,7 @@ app.post("/post", (req,res,next) => {
 app.use((err,req,res,next) => {
     console.error(err.stack);
     res.status(500).json({
-        status: err,
+        status: err.status,
         error: err.message
     });
 });
