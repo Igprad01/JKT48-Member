@@ -7,14 +7,16 @@ let json;
 
 app.use(express.json());
 
+
 app.listen(port, () => {
     console.log(`running ${port}`);
 });
 
-app.get("/", (req,res,next)=> {
-    res.send('hello world');
-});
-// nanti diperbarui menampilkan readme.md & next fix post API (new version)
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "/public/index.html"));
+  });
+  
+// next fix post API (new version)
 
 
 app.get("/member", (req, res, next) => {
